@@ -1,0 +1,29 @@
+/* src/components/Footer.css */
+
+.footer-container {
+    background-color: #f8f9fa;
+    padding: 40px;
+    width: 100%;
+   text-align: left;
+  }
+  
+  .footer-row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .footer-col {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+  }
+  
+  .footer-col h4 {
+    margin-bottom: 10px;
+  }
+  
+  .footer-col p {
+    margin: 5px 0;
+  }
+  

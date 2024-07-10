@@ -1,0 +1,16 @@
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 260px 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 3fr;
+    grid-template-areas: 
+        'sidebar header header header'
+        'sidebar main main main';
+    height: 100vh;
+    height: 98vh; /* Full viewport height */
+    text-align: center; /* Center text */
+    padding: 20px; /* Optional padding */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+    transform: translateY(50%); 
+    margin-bottom: 20px;
+}
